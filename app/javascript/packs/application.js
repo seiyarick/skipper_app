@@ -7,6 +7,13 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
+import "jquery"
+// 'jquery'を使う宣言
+import "script.js"
+// 'script.js'を使う宣言
+import "skippr.min"
+// 'skippr.min'を使う宣言
+
 
 Rails.start()
 Turbolinks.start()

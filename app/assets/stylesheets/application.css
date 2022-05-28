@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "skippr";
+ /*"skippr"を使う宣言*/
+
+ #container{
+   height: 500px;
+ }
+
+.image2{
+  background-image: url(curry.jpg);
+}
+
+.image1{
+  background-image: url(hotdog.jpg);
+}
+
+.image3{
+  background-image: url(pasta.jpg);
+}
+
+.image4{
+  background-image: url(soba.jpg);
+}
+
+.image5{
+  background-image: url(tenmusu.jpg);
+}
